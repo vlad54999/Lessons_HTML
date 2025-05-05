@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 2.4</title>
+    <style>
+        .wrapper{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 100vh;
+            flex-wrap: wrap;
+        }
+        .item{
+            margin: 20px;
+            width: 200px;
+            height: 200px;
+            background: #2A7B9B;
+            background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+            box-shadow: 8px 8px 8px black;
+            border-radius: 50%;
+            border: 3px solid #2A7B9B ;
+            transition: 3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .item:hover{
+            border-radius: 0;
+            border: 4px solid rgba(87, 199, 133, 1) ;
+            transition: 3s;
+            width: 300px;
+            height: 300px;
+        }
+        .item a{
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"><a href="#">Lorem</a></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"><a href="#">Lorem</a></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"><a href="#">Lorem</a></div>
+        <div class="item"></div>
+    </div>
+
+</body>
+</html>
