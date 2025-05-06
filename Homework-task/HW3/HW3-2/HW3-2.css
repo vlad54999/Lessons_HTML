@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+section p{
+    margin: 20px 0;
+    width: 80%;
+}
+.top-section{
+    background-color: darkgray;
+    color: white;
+}
+.button-section{
+    background-color: #2A7B9B;
+    color: white;
+}
