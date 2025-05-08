@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------HEADER-------------------*/
+header{
+    height: 20vh;
+    background: #8D8484;
+    text-align: center;
+}
+
+/*--------------------MAIN---------------------*/
+main{
+    display: flex;
+}
+main div section{
+    height: 20vh;
+    width: 73vw;
+}
+
+main div aside{
+    height: 30vh;
+    width: 27vw;
+}
+/*CONTENT*/
+.main__content__content-1{
+    background: #776969;
+}
+.main__content__content-2{
+    background: #643030;
+}
+.main__content__content-3{
+    background: #441818;
+}
+/*SPAM*/
+.main__spams__spam-1{
+    background: #937575;
+}
+.main__spams__spam-2{
+    background: #644C4C;
+}
+/*---------------------FOOTER--------------------*/
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}
+
+header, footer, section, aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
