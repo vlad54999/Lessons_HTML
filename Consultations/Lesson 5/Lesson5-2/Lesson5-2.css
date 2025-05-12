@@ -1,0 +1,17 @@
+.pink-box{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    margin: 100px auto auto;
+    animation: lorem 5s linear infinite alternate;
+}
+
+@keyframes lorem{
+    From{
+        transform: scaleY(1.5);
+    }
+    to {
+        transform: scaleY(1);
+        background-color: yellow;
+    }
+}
