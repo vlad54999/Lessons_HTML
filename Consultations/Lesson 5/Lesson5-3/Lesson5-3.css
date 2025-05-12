@@ -1,0 +1,29 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+}
+.blue{
+    background-color: blue;
+    order: 1;
+}
+.green{
+    background-color: green;
+    order: -1;
+}
+.yellow{
+    background-color: yellow;
+    order: 2;
+}
+.pink{
+    background-color: pink;
+    order: -2;
+}
+.orange{
+    background-color: orange;
+}
