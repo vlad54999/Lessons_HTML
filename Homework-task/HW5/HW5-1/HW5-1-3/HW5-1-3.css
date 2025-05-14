@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.box-1{
+    border:  10px solid black;
+    animation: loader-1 2s infinite alternate;
+}
+.box-2{
+    border:  10px solid black;
+    animation: loader-2 2s infinite alternate;
+}
+.box-3{
+    border:  10px solid black;
+    animation: loader-3 2s infinite alternate;
+}
+.box-4{
+    border:  10px solid black;
+    animation: loader-4 2s infinite alternate;
+}
+
+
+@keyframes loader-1{
+    from{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,-50px) scale(1.5);
+        border-color: gold;
+    }
+    50%{
+        transform: translate(0,0);
+    }
+    75%{
+        transform: translate(0,50px) scale(1.5);
+        border-color: gold;
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+@keyframes loader-2{
+    from{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,50px) scale(1.5);
+        border-color: green;
+    }
+    50%{
+        transform: translate(0,0);
+    }
+    75%{
+        transform: translate(0,-50px) scale(1.5);
+        border-color: green;
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+@keyframes loader-3{
+    from{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,-50px) scale(1.5);
+        border-color: indigo;
+    }
+    50%{
+        transform: translate(0,0);
+    }
+    75%{
+        transform: translate(0,50px) scale(1.5);
+        border-color: indigo;
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
+@keyframes loader-4{
+    from{
+        transform: translate(0,0);
+    }
+    25%{
+        transform: translate(0,50px) scale(1.5);
+        border-color: dodgerblue;
+    }
+    50%{
+        transform: translate(0,0);
+    }
+    75%{
+        transform: translate(0,-50px) scale(1.5);
+        border-color: dodgerblue;
+    }
+    to{
+        transform: translate(0,0);
+    }
+}
