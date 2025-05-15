@@ -1,0 +1,23 @@
+button:hover{
+    background-color: yellow;
+}
+button:active{
+    background-color: pink;
+}
+a:link{
+    text-decoration: none;
+    color: coral;
+}
+a:visited{
+    color: #19191B;
+}
+li{
+    color: coral;
+}
+li::marker{
+    color: yellow;
+}
+p::selection{
+    background-color: #19191B;
+    color: white;
+}
