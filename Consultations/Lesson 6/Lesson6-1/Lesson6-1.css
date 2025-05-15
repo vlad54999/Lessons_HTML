@@ -1,0 +1,25 @@
+/*
+1000б - inline
+100б - id
+10б - class
+1б -  tag
+*/
+body p.lorem{
+    color: crimson;
+}
+p.text{
+    color: blue;
+}
+p{
+    color: coral;
+}
+section p.lorem{
+    color: cyan;
+}
+section div p.text{
+    color: coral;
+}
+
+section div.box p.text{
+    color: pink;
+}
