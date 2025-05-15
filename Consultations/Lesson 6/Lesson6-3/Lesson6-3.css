@@ -1,0 +1,13 @@
+div :last-child{
+    color: coral;
+}
+/*div p::first-line{*/
+/*    color: crimson;*/
+/*    font-size: 20px;*/
+/*}*/
+div p:last-of-type{
+    color: crimson;
+}
+ul li:nth-last-child(2n+3){
+    color: cyan;
+}
