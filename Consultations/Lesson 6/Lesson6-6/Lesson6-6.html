@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 6-6</title>
+  <link rel="stylesheet" href="Lesson6-6.css">
+</head>
+<body>
+    <form class="form-registration">
+        <label for="name">Введите свое имя:</label>
+        <input type="text" name="name" id="name" placeholder="Например: Vlad" required> <sup>*</sup>
+
+        <label for="email">Введите свой email:</label>
+        <input type="email" name="email" id="email" placeholder="by-ga-ga@gmail.com" required> <sup>*</sup>
+
+        <label for="password">Введите свой пароль:</label>
+        <input type="password" name="password" id="password" placeholder="На горшке сидел король" required> <sup>*</sup>
+
+        <label for="age">Введите свой возраст:</label>
+        <input type="number" name="age" id="age" min="16" max="100">
+
+        <label>Пол</label>
+        <label><input type="radio" name="gender" value="male">Мужчина</label>
+        <label><input type="radio" name="gender" value="female">Женщина</label>
+
+        <label>
+            <input type="checkbox" name="newsletter">Подписаться на новости
+        </label>
+
+        <label for="lorem">Выбери страну</label>
+        <select id="lorem">
+            <option value="">Выбрать</option>
+            <option value="ua">Украина</option>
+            <option value="usa">США</option>
+            <option value="ca">Канада</option>
+            <option value="uk">Великобритания</option>
+        </select>
+
+        <label for="phone"></label>
+        <select id="phone">
+            <optgroup label="IPhone">
+                <option value="10">IPhone 10</option>
+                <option value="11">IPhone 11</option>
+                <option value="12">IPhone 12</option>
+            </optgroup>
+            <optgroup label="Samsung">
+                <option value="">A51</option>
+                <option value="">A71</option>
+                <option value="">A-что-то-там</option>
+            </optgroup>
+        </select>
+
+        <label for="coment"></label>
+        <textarea name="coment" id="coment">
+
+        </textarea>
+        <div>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Скинуть">
+        </div>
+
+    </form>
+
+</body>
+</html>

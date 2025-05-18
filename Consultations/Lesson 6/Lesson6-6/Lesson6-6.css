@@ -1,0 +1,14 @@
+label{
+    display: block;
+    margin-top:  10px;
+}
+sup{
+    color: red;
+}
+input{
+    width: 150px;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+}
