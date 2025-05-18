@@ -12,3 +12,9 @@ textarea{
     width: 400px;
     height: 200px;
 }
+.form-registration{
+    border: 3px solid lightseagreen;
+    border-radius: 20px;
+    width: 30%;
+    padding: 50px;
+}
