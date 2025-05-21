@@ -1,0 +1,8 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: #4F6F51;
+    position: relative;
+    left: 100px;
+    z-index: -1;
+}
