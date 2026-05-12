@@ -1,0 +1,14 @@
+.item{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+}
+.item-1{
+    background-color: #2A7B9B;
+}
+.item-2{
+    background-color: #8E88C1;
+}
+.item-3{
+    background-color: #644C4C;
+}
