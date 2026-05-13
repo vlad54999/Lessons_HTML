@@ -1,0 +1,9 @@
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+    .items {
+        padding: 32px 0;
+        width: 720px;
+    }
+    .item{
+        width: 218px;
+    }
+}
