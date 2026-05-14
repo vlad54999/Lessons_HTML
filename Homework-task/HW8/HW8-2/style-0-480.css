@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+    .items{
+        width: 100%;
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px 16px;
+    }
+    .item h3 {
+        margin: 16px 0 0 0;
+    }
+}
