@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: grid;
+    height: 100vh;
+    background: grey;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+}
+.item{
+    background: #FF7143;
+    border:  2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper div:nth-child(5){
+    background: #FFF;
+}
